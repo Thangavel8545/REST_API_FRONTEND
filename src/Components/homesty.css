@@ -1,0 +1,94 @@
+/* homesty.css */
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0YwRz2e2fjL7pyKv9i54BImCxqXWaVZetw&usqp=CAU');
+ background-size: cover;
+}
+/* Form styles */
+.form-table {
+  display: grid;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Input styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styles */
+#but {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Navigation styles */
+#nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#nav li {
+  margin: 0 10px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#nav a:hover {
+  color: #0056b3;
+}
+
+/* Header styles */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
